@@ -70,18 +70,6 @@ export default {
         numero: '6',
         titulo: 'Mecanismos de financiación de proyectos de energía renovable',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '6.1',
-            titulo: 'Financiamiento nacional',
-            hash: 't_6_1',
-          },
-          {
-            numero: '6.2',
-            titulo: 'Financiamiento internacional',
-            hash: 't_6_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema7',
@@ -456,14 +444,13 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del ecosistema',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
           nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Responsable de línea de producción',
-          centro:
-            'Regional Tolima - <strong>Centro de Comercio y Servicios</strong>',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -471,33 +458,47 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Linda Díaz Rivera',
-          cargo: 'Consultora',
-          centro: 'Global Green Growth Institute (GGGI)',
+          nombre: 'Carlos Javier González Cuevas',
+          cargo: 'Experto Técnico',
+          centro:
+            'Regional Distrito Capital - Centro Electricidad, Electrónica y Telecomunicaciones',
+        },
+        {
+          nombre: 'Jaime Mauricio Peñaloza Trespalacios',
+          cargo: 'Experto Técnico',
+          centro:
+            'Regional Distrito Capital - Centro Electricidad, Electrónica y Telecomunicaciones',
         },
         {
           nombre: 'Leidy Carolina Arias Aguirre',
           cargo: 'Diseñadora Instruccional',
-          centro:
-            'Regional Distrito Capital - <strong>Centro de Diseño y Metrología</strong>',
+          centro: 'Regional Distrito Capital - Centro de diseño y metrología',
         },
         {
-          nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Evaluadora Instruccional',
-          centro:
-            'Regional Distrito Capital - <strong>Centro de Gestión Industrial</strong>',
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Revisora Metodológica y Pedagógica',
+          centro: 'Regional Distrito Capital - Centro de diseño y metrología',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reye',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable Equipo Desarrollo Curricular',
           centro:
-            'Regional Santander - <strong>Centro Industrial del Diseño y la Manufactura</strong>',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Darío González',
           cargo: 'Corrector de Estilo',
-          centro:
-            'Regional Distrito Capital - <strong>Centro de Diseño y Metrología</strong>',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Juan Gilberto Giraldo Cortés',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'María Inés Machado López',
+          cargo: 'Metodóloga',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -505,20 +506,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'José Yobani Penagos Mora',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Oscar Daniel Espitia Marin',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Regional Tolima - <strong>Centro de Comercio y Servicios</strong>',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Storyboard e Ilustración',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Producción Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Francisco Javier Vásquez Suarez',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -526,14 +541,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
+          nombre: 'Jorge Bustos Gómez',
           cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
+          nombre: 'Gilberto Naranjo Farfán',
           cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
