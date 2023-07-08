@@ -196,16 +196,231 @@
                   ul.lista-ul.ps-4
                     li.mb-0
                       i.lista-ul__vineta
-                      | Producción de energía bruta = Capacidad instalada x factor de planta x horas de operación. 
+                      | Producción de energía bruta = capacidad instalada x factor de planta x horas de operación. 
                     li.mb-0
                       i.lista-ul__vineta
-                      | Producción de energía neta = Capacidad neta x factor de planta x horas de operación.
+                      | Producción de energía neta = capacidad neta x factor de planta x horas de operación.
                     li.mb-0
                       i.lista-ul__vineta
-                      | Capacidad Neta = Capacidad instalada x (1- Usos de la planta).
+                      | Capacidad neta = capacidad instalada x (1- Usos de la planta).
+              .row(numero="3" titulo="De lo anterior, se tiene:")
+                .col-12.mb-4.mb-md-0
+                  ul.lista-ul.ps-4
+                    li.mb-0
+                      i.lista-ul__vineta
+                      | Ingresos por venta de energía = producción neta x precio de venta de la energía.
+                    li.mb-0
+                      i.lista-ul__vineta
+                      | Ingresos por venta de potencia = capacidad neta x precio de venta de la potencia.
+                  p En cuanto a la energía producida, una de las maneras de conocerla es a partir de la curva de consumo. Además, la curva de generación del sistema de energía renovable se puede obtener a partir del diseño y dimensionamiento del mismo, según el tipo de tecnología energética. 
+              .row(numero="4" titulo="Los perfiles de consumo y producción")
+                .col-12.mb-4.mb-md-0
+                  p Se representan mediante gráficas y su interpretación es como se describe a continuación:
+                  ul.lista-ul.ps-4
+                    li.mb-0
+                      i.lista-ul__vineta
+                      | Total energía generada = área bajo la curva de producción (Generación).
+                    li.mb-0
+                      i.lista-ul__vineta
+                      | Total energía consumida = área bajo la curva de consumo.
+                    li.mb-0
+                      i.lista-ul__vineta
+                      | Energía auto consumida = área de la región entre las dos curvas.
+                    li.mb-0
+                      i.lista-ul__vineta
+                      | Energía producida y no consumida (excedente para inyectar a la red) = área bajo la curva de producción que está por encima de la curva de consumo.
+                    li.mb-0
+                      i.lista-ul__vineta
+                      | Energía adicional necesaria, consumida de la red = área bajo la curva de consumo y sobre la línea de producción.
+
+    p.mb-5(data-aos="fade-down") Para determinar la rentabilidad de implementar un sistema de generación a partir de renovables, por ejemplo, en el caso de autoconsumo, es necesario examinar el ahorro en el consumo por parte del usuario, es decir, lo que deja de comprar a la empresa prestadora y comercializadora del servicio.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-10(data-aos="fade-down")
+        .titulo-sexto.color-acento-botones
+          p.titulo.pb-0.mb-0 #[b Figura 10.] #[i Curva de Consumo y Curva de Producción de electricidad de un proyecto de generación solar fotovoltaica para uso residencial] 
+        figure
+          img(src='@/assets/curso/temas/tema7/tema7-15.svg', alt='') 
+          figcaption Nota. El precio de venta del kWh se obtiene de las tarifas aplicadas por la empresa de servicio de energía correspondiente 
+
+
+    .row.justify-content-center.align-items-center.mb-2
+      .col-12(data-aos="fade-left")
+        ul.lista-ul
+            li.mb-0
+              i.fas.fa-angle-right(style="color:#AD84FF")
+              | #[strong Determinación de los Costos de Inversión (CAPEX )]
+
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-12.col-md-8(data-aos="fade-down")
+        p Son los costos relacionados con la construcción de la infraestructura y las facilidades de la planta (materiales, instrumentos, etc.), costos de adquisición de equipos de generación, costo de interconexión (líneas de transmisión, subestaciones, etc.), costos de desarrollo (contratación de servicios de diseño, ingeniería y construcción, licencias y permisos, estudios de prefactibilidad y legales, entre otros). 
+        p También incluye el costo de terrenos e inmuebles, y paisajismo, que, si bien no suman en el monto global, son importantes para el progreso de proyectos de generación de energía. 
+        p Es importante mencionar que la definición del valor de la inversión requiere conocer la procedencia de los recursos. La financiación del proyecto puede proceder de una institución financiera, de recursos propios, o de una combinación de ambos.
+        p Definir el monto de inversión requerido implica examinar el origen de los recursos financieros, ya sean internos o externos. Los primeros se refieren a fondos de accionistas, uso de utilidades de la empresa, etc., mientras que los segundos se refieren básicamente a un crédito bancario. 
+      .col-12.col-md-4(data-aos="fade-down")
+        figure
+          img(src='@/assets/curso/temas/tema7/tema7-16.png', alt='') 
 
 
 
+    Separador
+    #t_7_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 7.2 Conceptos básicos para la evaluación financiera
+
+    p En este apartado, se presentan los principales parámetros que se tienen en cuenta para la evaluación financiera de proyectos.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-5(data-aos="fade-down")
+        h4 Flujo de caja
+        p Las operaciones financieras se componen de una serie de flujos de caja con diferentes valores y distintas fechas. Estos flujos pueden ser ingresos o egresos. Comúnmente, se conoce el flujo de caja de un proyecto como un esquema en el que se representan las entradas (ingresos) y salidas (egresos) del proyecto registradas en un período dado, que generalmente es de 1 año. 
+        p La representación gráfica se muestra en la figura 11. 
+        p La línea horizontal representa el tiempo y las flechas representan el dinero. Las flechas orientadas hacia arriba representan las entradas de dinero (ingreso, ahorro, beneficio, entre otros); son valores positivos. Mientras que las flechas orientadas hacia abajo representan salida de dinero (egreso, inversión, gasto, pérdida, entre otros); son valores negativos.
+      .col-12.col-md-7(data-aos="fade-down")
+        figure
+          img(src='@/assets/curso/temas/tema7/tema7-17.png', alt='') 
+
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-10(data-aos="fade-down")
+        .titulo-sexto.color-acento-botones
+          p.titulo.pb-0.mb-0 #[b Figura 11.] #[i Diagrama de flujo de caja] 
+        figure
+          img(src='@/assets/curso/temas/tema7/tema7-18.svg', alt='') 
+
+    p.mb-3(data-aos="fade-down") Algunas consideraciones de la práctica común para simplificar el cálculo en los flujos de caja son:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-10(data-aos="fade-down")
+        ul.lista-ul
+          li.mb-0
+            i.lista-ul__vineta
+            | Se asume que los flujos se ocurren al final de cada periodo.
+          li.mb-0
+            i.lista-ul__vineta
+            | La inversión inicial se produce en el 'año 0'. Esto aplica principalmente en proyectos pequeños y sencillos. En proyectos de gran escala, puede arrojar resultados erróneos.
+          li.mb-0
+            i.lista-ul__vineta
+            | Cuando no se incluyen tasas inflacionarias, en el análisis solo se deben especificar los precios, la tasa de interés, y tasa de descuento.
+
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-5(data-aos="fade-down")
+        h4 Tasa de descuento
+        p Es la tasa que se utiliza para actualizar los valores futuros al valor presente, o viceversa. Las tasas de descuento pueden ser reales o nominales (tienen en cuenta la inflación). Existen varios métodos para estimar la tasa de descuento, destacándose el modelo de valoración de activos financieros (CAPM: <i>Capital Asset Pricing Model</i>) y el costo ponderado de capital (WACC: <i>Weighted Average Cost of Capital</i>). Este último complementa al primero, agrega costos marginales de endeudamiento y tiene en cuenta la razón de deuda capital. 
+      .col-12.col-md-7(data-aos="fade-down")
+        figure
+          img(src='@/assets/curso/temas/tema7/tema7-19.png', alt='') 
+
+    .row.justify-content-center.align-items-center
+      .col-12.col-md-11.col-lg-10
+        .row.justify-content-center.align-items-center.mb-5(style="background-color:#D3E7F7")
+          .col-10.col-md-4.col-lg-3.p-2(data-aos="fade-down")
+            figure
+              img(src='@/assets/curso/temas/tema7/tema7-20.svg', alt='')  
+          .col-12.col-md-8.col-lg-9.mb-md-0(data-aos="fade-left")
+            p.mb-md-0 En este curso, no se profundizará en cómo se determina este factor, no obstante, es importante mencionar que su elección lleva implícitos aspectos relacionados con riesgo y liquidez.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-5(data-aos="fade-down")
+        h4 Valor Presente (VP) y Valor Futuro (VF)
+        p Se denomina Valor Presente (o Valor Actual) a la inversión inicial. Otros nombres con los que también se conoce a la inversión inicial son: Principal y Valor Actual (VA). Para este curso, se usará Valor Presente, no obstante, es importante recordar que, para cálculos en Excel, se utiliza la notación VA, ya que así está agregada la función en dicho programa. Cabe destacar que la inversión inicial representa un costo, es decir, la empresa o la persona no harán uso del capital de forma inmediata, sino que los puede ahorrar o invertir, buscando obtener un provecho de ello en el futuro.
+      .col-12.col-md-7(data-aos="fade-down")
+        figure
+          img(src='@/assets/curso/temas/tema7/tema7-21.png', alt='') 
+
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down-left")
+      .col-12
+        .cajon.color-acento-botones.p-4
+          p El valor presente indica cuánto vale hoy la suma futura de dinero, dada una tasa de rendimiento especificada. Este es un importante concepto financiero basado en el principio de que el dinero recibido en el futuro no vale tanto como una suma igual recibida hoy. 
+
+    p.mb-3(data-aos="fade-down") El valor actual se puede calcular utilizando la siguiente fórmula:
+
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down-left")
+      .col-12
+        div.text-center
+          mfrac
+            mi.italic VA =&nbsp;
+          math.text-center
+            mfrac
+              msup
+                mi.italic VF
+              msup
+                mi.italic (1+i)n
+        div.text-center.mt-3
+          math.text-center
+            mfrac
+              msup
+                mi.italic VF
+              msup
+                mi.italic (1+i)n
+          mfrac
+            mi.italic &nbsp;= Factor de descuento
+        p.mt-3 Donde,
+        div(data-aos="fade-right")
+          mfrac
+            mi.italic VA: es el valor presente del flujo de caja futuro (cantidad actual).
+        div(data-aos="fade-right")
+          mfrac
+            mi.italic VF: es el valor futuro (cantidad a recibir en n años).
+        div(data-aos="fade-right")
+          mfrac
+            mi.italic i: es la tasa de interés (o tasa de descuento).
+        div(data-aos="fade-right")
+          mfrac
+            mi.italic n: es el número de años (o meses u otra unidad de tiempo) durante los cuales se realiza el cálculo.
+
+    .row.justify-content-center.align-items-center.mb-5.mt-5
+      .col-12.col-md-7(data-aos="fade-down")
+        figure
+          img(src='@/assets/curso/temas/tema7/tema7-22.png', alt='') 
+      .col-12.col-md-5(data-aos="fade-down")
+        p El valor futuro es el valor que puede alcanzar un capital en el futuro a partir de los intereses ganados. Ambos conceptos, valor presente y valor futuro, se relacionan con la idea de valor de dinero en el tiempo. Un monto de dinero hoy tiene un valor más alto que el valor de la misma cantidad en el futuro. Las personas y las empresas prefieren recibir efectivo hoy que en el futuro y esto se debe al potencial que posee el dinero en producir más dinero. Por ejemplo, al solicitar un crédito actualmente para devolverlo en 1 periodo de 1 año, la cantidad que se devolverá no es la misma que la prestada, puesto que el dinero valdrá menos pasado el periodo. 
+
+
+    .row.justify-content-center.align-items-center
+      .col-12.col-md-11.col-lg-10
+        .row.justify-content-center.align-items-center.mb-5(style="background-color:#D3E7F7")
+          .col-10.col-md-4.col-lg-3.p-2(data-aos="fade-down")
+            figure
+              img(src='@/assets/curso/temas/tema7/tema7-20.svg', alt='')  
+          .col-12.col-md-8.col-lg-9.mb-md-0(data-aos="fade-left")
+            p.mb-md-0 Por ello, en los préstamos se paga capital inicial más intereses. 
+
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12(data-aos="fade-down")
+        h4 Valor Presente Neto (VPN) o Valor Actual Neto (VAN)
+        p El Valor Presente Neto se refiere a traer los flujos de efectivo (positivos o negativos) del futuro a su valor presente equivalente. En el contexto de evaluación económica, cuando se traen cantidades monetarias del futuro al presente, se utiliza el concepto de tasa de descuento. Mientras que, si el monto se traslada del presente al futuro, se utiliza el concepto de tasa de interés. Por esta razón, los flujos de dinero que se han traído al presente también se conocen como flujos descontados. ¡Observe!
+      
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12(data-aos="fade-down")
+        h4 Tasa Interna de retorno (TIR)
+        p La ganancia que obtienen los inversionistas cada año se puede expresar como una tasa de interés o rendimiento, que se conoce como tasa interna de rendimiento. ¡Observe!
+         
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-12(data-aos="fade-down")
+        h4 Otros factores para la evaluación de proyectos de inversión en el sector energía
+        p Existen otros aspectos que se tienen en cuenta a la hora de evaluar proyectos de inversión en energías renovables y eficiencia energética. 
+        p Algunos de los más comunes en la práctica son: 
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-10(data-aos="fade-down")
+        ul.lista-ul
+          li.mb-0
+            i.lista-ul__vineta
+            | #[strong Los incentivos], subvenciones y beneficios establecidos por el gobierno y organismos oficiales que pueden influir en los costos de la inversión. 
+          li.mb-0
+            i.lista-ul__vineta
+            | #[strong Exclusión de impuestos] que pueden reducir los costos totales de inversión.
+          li.mb-0
+            i.lista-ul__vineta
+            | Cambios en los precios de la energía de origen convencional que se reemplaza con energía renovable, 
+          li.mb-0
+            i.lista-ul__vineta
+            | #[strong La tasa de inflación], que en general afecta a toda la economía.
 
 
 
