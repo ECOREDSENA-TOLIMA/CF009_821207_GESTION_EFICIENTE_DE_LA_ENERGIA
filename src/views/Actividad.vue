@@ -10,8 +10,8 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Calculando el Valor: Presente y Futuro
-        p.mb-4 #[b Objetivo] Practicar el cálculo del valor presente y el valor futuro en diferentes escenarios financieros.
+          h2 Repasando sobre energías renovables
+        p.mb-4 #[b Objetivo] El objetivo de esta actividad didáctica es evaluar el conocimiento adquirido sobre los aspectos clave relacionados con la viabilidad del aprovechamiento de fuentes de energía renovable, como la normativa, barreras, mecanismos de incorporación y evaluación financiera.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

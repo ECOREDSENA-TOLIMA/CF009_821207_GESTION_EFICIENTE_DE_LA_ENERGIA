@@ -458,16 +458,9 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Carlos Javier González Cuevas',
-          cargo: 'Experto Técnico',
-          centro:
-            'Regional Distrito Capital - Centro Electricidad, Electrónica y Telecomunicaciones',
-        },
-        {
-          nombre: 'Jaime Mauricio Peñaloza Trespalacios',
-          cargo: 'Experto Técnico',
-          centro:
-            'Regional Distrito Capital - Centro Electricidad, Electrónica y Telecomunicaciones',
+          nombre: 'Linda Díaz Rivera',
+          cargo: 'Consultora',
+          centro: 'Global Green Growth Institute (GGGI)',
         },
         {
           nombre: 'Leidy Carolina Arias Aguirre',
@@ -475,9 +468,9 @@ export default {
           centro: 'Regional Distrito Capital - Centro de diseño y metrología',
         },
         {
-          nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Revisora Metodológica y Pedagógica',
-          centro: 'Regional Distrito Capital - Centro de diseño y metrología',
+          nombre: 'Silvia Milena Sequeda Cárdenas',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
