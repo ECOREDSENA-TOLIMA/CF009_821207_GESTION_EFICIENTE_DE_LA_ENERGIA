@@ -17,9 +17,9 @@
         p A comienzos del siglo en curso, el país dio los primeros pasos en materia de política energética, orientada al uso racional y eficiente de los recursos energéticos y el desarrollo de las energías renovables. 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-10(data-aos="fade-down")
-        .titulo-sexto.color-acento-botones
-          p.titulo.pb-0.mb-0 #[b Figura 5.] #[i Evolución de la política colombiana en cuanto a las FNCER.] 
+      .col-12(data-aos="fade-down")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Figura 6.] #[i Evolución de la política colombiana en cuanto a las FNCER.] 
         figure
           img(src='@/assets/curso/temas/tema3/tema3-02.svg', alt='') 
           figcaption Nota. Tomado Plan nacional de negocios verdes. p. 27.
@@ -129,11 +129,13 @@
                   p Esta ley modifica algunos artículos de la Ley 1715, con el objeto de modernizar la legislación vigente y dictar otras disposiciones para la transición energética.
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5.cajon.color-adicional-1
       .col-12.col-md-7.col-lg-7(data-aos="fade-left")
         p Estas normas abarcan asuntos relacionados con el mercado y la libre competencia para generar electricidad, mecanismos, lineamientos, actividades y otras consideraciones relacionadas con la generación por fuentes renovables, hasta beneficios tributarios y subastas de energía. 
         p Ahora bien, es a partir de la publicación de la Ley 1715 que comienza la regulación de la integración de las fuentes renovables y sostenibles en el país y que se marca la pauta para el proceso que se ha observado en los años recientes en materia de diversificación de la matriz energética de Colombia. 
       .col-11.col-md-5.col-lg-5.p-4(data-aos="fade-down")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Figura 7.] #[i Finalidad de la Ley 1715 de 2014.] 
         figure
           img(src='@/assets/curso/temas/tema3/tema3-03.png', alt='')  
 
@@ -170,9 +172,9 @@
     
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-10(data-aos="fade-down")
-        .titulo-sexto.color-acento-botones
-          p.titulo.pb-0.mb-0 #[b Figura 6.] #[i Estructura de la Ley 1715 de 2014] 
+      .col-12(data-aos="fade-down")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Figura 8.] #[i Estructura de la Ley 1715 de 2014.] 
         figure
           img(src='@/assets/curso/temas/tema3/tema3-04.svg', alt='') 
           figcaption Nota. GD: Generación Distribuida, AGPE: Autogeneración a Pequeña Escala, SIN: Sistema Interconectado Nacional, ZNI: Zonas No Interconectadas

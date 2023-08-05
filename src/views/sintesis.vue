@@ -7,7 +7,7 @@
     p.mb-5 Los subtemas abarcan diferentes aspectos relacionados con la energía renovable, desde la estructura tarifaria de los servicios de gas y de energía eléctrica, pasando por la integración de energías renovables en Colombia, el marco normativo y las barreras para la inclusión de las energías renovables, hasta los instrumentos y mecanismos para incorporarlas y los mecanismos de financiación de proyectos. 
 
     .row.justify-content-center
-      .col-lg-12.mb-5
+      .col-12.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto

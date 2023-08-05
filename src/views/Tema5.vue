@@ -5,26 +5,26 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 5
-      h1 Instrumentos y mecanismos para la utilización de energías renovables en Colombia
+      h1 Instrumentos y mecanismos para incorporar las energías renovables en Colombia
     
     .cajon-b.color-primario.p-3.mb-5(data-aos="fade-down")
       p.mb-0 A nivel mundial, se han creado múltiples instrumentos y mecanismos con el propósito de fomentar de manera efectiva la integración de las energías renovables en las diferentes estructuras energéticas de los países. A continuación, le invitamos a explorar el siguiente recurso para ampliar más sobre este tema.
 
     .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-down")
       SlyderE(indicadores="derecha")
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.mx-2
           .col-md-5.mb-4.mb-md-0
             p Los instrumentos pueden clasificarse como de tipo ambiental, dirigidos a la obtención de beneficios ambientales; de tipo político, orientados a incentivar la inclusión de las energías alternativas en la canasta energética; de tipo fiscal y financiero, encaminados a generar las condiciones que hagan factible el desarrollo de proyectos.
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema5/tema5-01.png', alt='')
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.mx-2
           .col-12.mb-4.mb-md-0
-            p En Latinoamérica, particularmente, se han implementado especialmente los instrumentos mostrados en la siguiente figura.
-          .col-md-7
+            p En Latinoamérica, particularmente, se han implementado especialmente los instrumentos mostrados en la siguiente imagen.
+          .col-12.col-lg-10
             figure
               img(src='@/assets/curso/temas/tema5/tema5-02.png', alt='')
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.mx-2
           .col-md-5.mb-4.mb-md-0
             h4 Incentivos y beneficios tributarios en torno a la Ley 1715 de 2014 
             p En Colombia, el gobierno ha emitido una serie de incentivos tributarios que facilitan el uso de estas tecnologías en el territorio nacional y permiten progresar hacia la transición energética.
@@ -32,41 +32,41 @@
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema5/tema5-03.png', alt='')
-        .row.justify-content-center.align-items-center
-          .col-md-7.mb-4.mb-md-0
+        .row.justify-content-center.align-items-center.mx-2
+          .col-md-6.mb-4.mb-md-0
             h4 Beneficios tributarios de la Ley 1715 de 2014
-            p El enfoque de este módulo es en los aspectos en torno a la Ley 1715, que consagra los beneficios tributarios dirigidos a la inversión en proyectos de energías alternativas, que se desarrollan en el Decreto 2143 del Capítulo 3 de dicha ley y se muestran en la figura a continuación.
+            p El enfoque de este módulo es en los aspectos en torno a la Ley 1715, que consagra los beneficios tributarios dirigidos a la inversión en proyectos de energías alternativas, que se desarrollan en el Decreto 2143 del Capítulo 3 de dicha ley y se muestran en la imagen a continuación.
             .row.justify-content-center.align-items-center.mb-2(style="background-color:#D3E7F7")
               .col-10.col-md-4.col-lg-3.p-2(data-aos="fade-down")
                 figure
                   img(src='@/assets/curso/temas/tema2/tema2-13.svg', alt='')  
               .col-12.col-md-8.col-lg-9.mb-md-0(data-aos="fade-left")
                 p.mb-md-0 Posteriormente, también se muestran aspectos de la recientemente sancionada Ley de Transición Energética (Ley 2099 de 2921).
-          .col-md-5
+          .col-md-6.col-12
             figure
               img(src='@/assets/curso/temas/tema5/tema5-04.svg', alt='')
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.mx-2
           .col-md-5.mb-4.mb-md-0
             h4 Beneficio de Exclusión IVA
             p Consiste en la exención del pago de IVA a los bienes y servicios considerados por la UPME. La entidad publicó un listado con los bienes y servicios destinados a la producción de energía por fuentes no convencionales, que incluye desde máquinas hasta instrumentación.
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema5/tema5-05.png', alt='')
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.mx-2
           .col-md-5.mb-4.mb-md-0
             h4 Beneficio de reducción del impuesto de renta
             p Por hasta el 50% del valor total de la inversión, que se puede distribuir en el transcurso de los 5 años posteriores al año en que se realiza.
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema5/tema5-06.png', alt='')
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.mx-2
           .col-md-5.mb-4.mb-md-0
             h4 Beneficio de exención de aranceles
             p Se refiere a que la compra de elementos, máquinas, materiales, servicios, etc., nacionales o importados, que se destinen para proyectos de fuentes no convencionales de energía, está exenta de aranceles.
           .col-md-7
             figure
               img(src='@/assets/curso/temas/tema5/tema5-07.png', alt='')
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.mx-2
           .col-md-5.mb-4.mb-md-0
             h4 Beneficio de depreciación acelerada
             p Se genera un ingreso por impuesto diferido, el cual se paga según sea la vida útil del activo. Se trata de depreciar aceleradamente la maquinaria, equipos, obras civiles adquiridas y/o construidas, que se conocen como activos, con una tasa anual máxima del 20 %. La depreciación se rige por técnica contable.
@@ -172,9 +172,9 @@
               .col-12
                 p Instaura el FONENERGÍA, que estará a cargo de asuntos relacionados con el financiamiento de planes, programas y proyectos de fuentes de energía no convencional. Su funcionamiento también estará orientado al fortalecimiento del Fondo de Energías no Convencionales y Gestión Eficiente de la Energía (FENOGE).
 
-    p.mb-3.mt-5(data-aos="fade-down") Específicamente, en lo que a modificaciones a los incentivos fiscales se refiere, se identificaron las descritas en la siguiente figura:
+    p.mb-3.mt-5(data-aos="fade-down") Específicamente, en lo que a modificaciones a los incentivos fiscales se refiere, se identificaron las descritas en el siguiente gráfico:
 
-    p.mb-2(data-aos="fade-down") #[strong Ajustes de la Ley 2099 de 2021 a los beneficios tributarios de la Ley 1715 de 2014]
+    p.mb-2.text-center(data-aos="fade-down") #[strong Ajustes de la Ley 2099 de 2021 a los beneficios tributarios de la Ley 1715 de 2014]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-11.col-lg-10(data-aos="fade-down-left")
@@ -186,8 +186,10 @@
             .row.justify-content-center.align-items-center
               .col-12
                 p Exclusión del IVA en la compra de bienes y servicios para la implementación de proyectos de fuentes no convencionales de energía (FNCE) y de gestión eficiente de la energía. Son 2 puntos los que modifica la ley: 
-                p Aplica el beneficio de exención de IVA para acciones y medidas orientadas a la eficiencia energética que cumplan también con las metas del Plan de Acción Indicativo (PAI) Proure. También se extiende el beneficio para instrumentos y equipos de medición inteligente.
                 ul.lista-ul
+                  li 
+                    i.lista-ul__vineta
+                    | Aplica el beneficio de exención de IVA para acciones y medidas orientadas a la eficiencia energética que cumplan también con las metas del Plan de Acción Indicativo (PAI) Proure. También se extiende el beneficio para instrumentos y equipos de medición inteligente.
                   li 
                     i.lista-ul__vineta
                     | Se define que el beneficio es aplicable a servicios desarrollados a nivel nacional o internacional, siempre y cuando estén dirigidos a proyectos de energía sustentable y eficiencia energética.

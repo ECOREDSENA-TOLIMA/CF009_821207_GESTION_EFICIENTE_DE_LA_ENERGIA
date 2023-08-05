@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 2
-      h1 Integración de energías renovables en Colombia
+      h1 Integración de las energías renovables en Colombia
 
     .cajon-b.color-acento-botones.p-3.mb-3(data-aos="fade-left")
       p.mb-0 En la última década, el sector energético a nivel global ha sufrido grandes transformaciones, impulsadas principalmente por la evolución de las energías renovables y el crecimiento de la capacidad instalada. Adicionalmente, el consumo energético ha estado aumentando a raíz del crecimiento socioeconómico de los países y del aumento de la población mundial. 
@@ -14,10 +14,10 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-6(data-aos="fade-right")
-        .titulo-sexto.color-acento-botones
-          p.titulo.pb-0.mb-0 #[b Figura 1.] #[i Evolución de la capacidad instalada global de las fuentes de energía renovable] 
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Figura 2.] #[i Evolución de la capacidad instalada global de las fuentes de energía renovable.] 
         figure
-          img(src='@/assets/curso/temas/tema2/tema2-01.png', alt='')  
+          img(src='@/assets/curso/temas/tema2/tema2-01.svg', alt='')  
       .col-12.col-md-6(data-aos="fade-right")
         p Particularmente, la energía solar ha tenido un crecimiento sobresaliente, tanto en sistemas de gran escala como sistemas de generación distribuida y autogeneración. En la actualidad, las tecnologías renovables representan cerca de la tercera parte de la capacidad energética global.
         p En la figura, se observa que, entre 2009 y 2019, la capacidad instalada de energía solar aumentó de 22.8 a 583.8 GW, es decir, cerca de 2.600%. Los países que actualmente se consolidan con mayor capacidad instalada de sistemas de generación distribuida son China, Japón, Estados Unidos y Alemania. La energía eólica, por su parte, también tuvo un aumento competitivo, con un crecimiento de 148 GW en 2009 a 593.3 GW en 2019, equivalente al 400%. 
@@ -29,10 +29,10 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-6(data-aos="fade-right")
-        .titulo-sexto.color-acento-botones
-          p.titulo.pb-0.mb-0 #[b Figura 2.] #[i Evolución de la generación de energía eléctrica global con energía renovable] 
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Figura 3.] #[i Evolución de la generación de energía eléctrica global con energía renovable.] 
         figure
-          img(src='@/assets/curso/temas/tema2/tema2-02.png', alt='')  
+          img(src='@/assets/curso/temas/tema2/tema2-02.svg', alt='')  
       .col-12.col-md-6(data-aos="fade-right")
         p Los principales impulsores del crecimiento de las fuentes renovables han sido: los incrementos en inversión de recursos monetarios para la introducción de fuentes renovables en la matriz energética mundial, los rápidos avances en la tecnología fotovoltaica, particularmente en eficiencia y manufactura de componentes, la disminución en los costos de fabricación y la creación de instrumentos y mecanismos como incentivos para promover la adopción de fuentes de energía renovable.
 
@@ -73,7 +73,7 @@
                   h3.mb-1 Tendencias globales en inversión en energía renovable 2020
                   p.text-small Acceda al siguiente enlace, en donde podrá consultar sobre las tendencias de inversión de manera global, así como los países que más invierten en energías renovables, disponible en:
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https:fs-unep-centre.org/global-trends-in-renewable-energy-investment-2020" target="_blank")
+                  a.boton.color-acento-botones(href="https://fs-unep-centre.org/global-trends-in-renewable-energy-investment-2020/" target="_blank")
                     span Ir al sitio web
                     i.fas.fa-link
 
@@ -99,8 +99,8 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-9.col-lg-7(data-aos="fade-right")
-        .titulo-sexto.color-acento-botones
-          p.titulo.pb-0.mb-0 #[b Figura 3.] #[i Disminución de costos de tecnologías de energía renovable: solar y eólica] 
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Figura 4.] #[i Disminución de costos de tecnologías de energía renovable: solar y eólica.] 
         figure
           img(src='@/assets/curso/temas/tema2/tema2-07.png', alt='')  
 
@@ -115,16 +115,17 @@
       .col-12.col-md-7(data-aos="fade-left")
         p En el contexto colombiano, también se ha evidenciado la implementación de proyectos de generación a partir de tecnologías renovables, como la solar fotovoltaica, solar térmica y la eólica. 
         p El país cuenta con una capacidad instalada aproximada de 17,2 GW, cantidad que en 2019 provino principalmente de generación hidráulica (68,3%); seguida de la generación térmica (gas y carbón principalmente), con un 30,7%; y por último, con cerca de 1%, de fuentes no convencionales de energía renovable (FNCER), distribuidas en solar, eólica y cogeneradores, como se observa en la figura. La generación total de energía en el país fue de 65.800 GWh en el mismo año. 
+        p Si bien el país es privilegiado por su localización geográfica y cuenta con una matriz energética en la que predomina la generación mediante energía hidráulica, también posee potencial para explotar otras fuentes de energía, como la solar y la eólica (ver la siguiente figura).
       .col-12.col-md-5(data-aos="fade-down")
-        .titulo-sexto.color-acento-botones
-          p.titulo.pb-0.mb-0 #[b Figura 4.] #[i Matriz energética de Colombia en 2019] 
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Figura 5.] #[i Matriz energética de Colombia en 2019.] 
         figure
           img(src='@/assets/curso/temas/tema2/tema2-08.svg', alt='')  
 
     //- .row.justify-content-center.align-items-center.mb-5
     //-   .col-12.col-md-5(data-aos="fade-down")
-    //-     .titulo-sexto.color-acento-botones
-    //-       p.titulo.pb-0.mb-0 #[b Figura 5.] #[i Potenciales FNCER por fuente] 
+    //-     .titulo-sexto.color-acento-contenido
+    //-       p.titulo.pb-0.mb-0 #[b Figura 6.] #[i Potenciales FNCER por fuente] 
     //-     figure
     //-       img(src='@/assets/curso/temas/tema2/tema2-10.png', alt='')  
     //-   .col-12.col-md-7(data-aos="fade-left")

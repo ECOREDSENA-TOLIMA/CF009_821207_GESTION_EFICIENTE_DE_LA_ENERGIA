@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 4
-      h1 Barreras para el aprovechamiento de las energías renovables en Colombia
+      h1 Barreras para la inclusión de las energías renovables en Colombia
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12(data-aos="fade-down")
@@ -46,7 +46,7 @@
                 td Las entidades financieras consideran que en el país falta experiencia en materia de tecnología, política e implementación de grandes proyectos de energía renovable, de ahí que sean conservadoras con respecto al financiamiento de proyectos y lo perciba de alto riesgo.
               tr
                 td Condiciones del mercado.
-                td El dominio por parte de algunos gentes del mercado dificultan la entrada de nuevos actores, la incorporación de nuevas tecnologías y la competencia.
+                td El dominio por parte de algunos agentes del mercado dificultan la entrada de nuevos actores, la incorporación de nuevas tecnologías y la competencia.
               tr
                 td No valoración de externalidades positivas.
                 td Uno de los principales aspectos positivos del uso de energía renovable es su bajo impacto ambiental. Sin embargo, esta  ventaja no se traduce en beneficios económicos.

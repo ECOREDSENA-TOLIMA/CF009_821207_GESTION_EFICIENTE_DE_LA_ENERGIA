@@ -142,21 +142,13 @@ export default {
       tema:
         '1. Estructura Tarifaria de los servicios de Gas y de Energía eléctrica',
       referencia:
-        'Comisión CREG. (2021). <em>La CREG en el sector energético colombian</em> [Video]. YouTube.',
+        'Comisión CREG. (2021). <em>La CREG en el sector energético colombiano</em> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=9AB6BtNTM5s',
     },
     {
-      tema: '1.1. Servicio de Gas por redes de tubería',
-      referencia:
-        'Transportadora de Gas Internacional. (2019). <em>Cadena del Gas Natural.</em> <strong>TGI.</strong>',
-      tipo: 'Página web',
-      link:
-        'https://www.tgi.com.co/industria-del-gas-natural/cadena-del-gas-natural',
-    },
-    {
       tema:
-        '1.1. Servicio de Gas por redes de tubería <p>1.2. Servicio de Energía Eléctrica</p>',
+        '1. Estructura Tarifaria de los servicios de Gas y de Energía eléctrica',
       referencia:
         'DANE. (2022). <em>Índice de Precios del Productor (IPP).</em>',
       tipo: 'Página web',
@@ -165,15 +157,7 @@ export default {
     },
     {
       tema:
-        '1.1. Servicio de Gas por redes de tubería <p>1.2. Servicio de Energía Eléctrica</p>',
-      referencia:
-        'DANE. (2022). <em>Índice de Precios al Consumidor - IPC</em>',
-      tipo: 'Página web',
-      link:
-        'https://www.dane.gov.co/index.php/estadisticas-por-tema/precios-y-costos/indice-de-precios-al-consumidor-ipc',
-    },
-    {
-      tema: '1.1.3. Subsidios y contribuciones',
+        '1. Estructura Tarifaria de los servicios de Gas y de Energía eléctrica',
       referencia:
         'Empresas Públicas de Medellín [EPM]. (s. f.). <em>Conoce tu factura.</em>',
       tipo: 'Página web',
@@ -181,7 +165,7 @@ export default {
     },
     {
       tema:
-        '1.2. Servicio de Gas Licuado de Petróleo (GLP) por cilindros y/o a granel',
+        '1. Estructura Tarifaria de los servicios de Gas y de Energía eléctrica',
       referencia:
         'Superservicios. (2022). <em>Boletín tarifario Gas Licuado de Petróleo. Cilindros y Granel. Cuarto Trimestre de 2021.</em>',
       tipo: 'PDF',
@@ -189,29 +173,31 @@ export default {
         'https://www.superservicios.gov.co/sites/default/files/inline-files/boletin_tarifario_glp_2021_iv_trimestre_-_publicacion_1.pdf',
     },
     {
-      tema: '1.2.2 Subsidios',
+      tema:
+        '1. Estructura Tarifaria de los servicios de Gas y de Energía eléctrica',
       referencia:
         'Resolución 40720 DE 2016. [Ministerio de Minas y Energía]. Por la cual se establecen los lineamientos para el otorgamiento de subsidios al consumo de GLP distribuido en cilindros. Julio 27 de 2016.',
-      tipo: 'Página web',
+      tipo: 'Documento legal',
       link:
         'https://gestornormativo.creg.gov.co/gestor/entorno/docs/resolucion_minminas_40720_2016.htm',
     },
     {
-      tema: '1.3.3. Subsidios y contribuciones',
+      tema:
+        '1. Estructura Tarifaria de los servicios de Gas y de Energía eléctrica',
       referencia: 'ENEL. (s. f.). <em>Energía eficiente.</em>',
       tipo: 'Página web',
       link:
         'https://www.enel.com.co/es/personas/servicio-al-cliente/energia-eficiente-consumo-invisible.html',
     },
     {
-      tema: '2.1. Contexto internacional',
+      tema: '2. Integración de las energías renovables en Colombia',
       referencia:
         '<strong>International Renewable Energy Agency</strong> [IRENA]. <strong>(2020).</strong> <em>Finance & Investment.</em>',
       tipo: 'Página web',
       link: 'https://www.irena.org/financeinvestment',
     },
     {
-      tema: '2.2. Contexto Colombiano',
+      tema: '2. Integración de las energías renovables en Colombia',
       referencia:
         'Planas, M. y Cárdenas J. (2019). <em>La matriz energética de Colombia se renueva.</em> Banco Interamericano de Desarrollo [BID].',
       tipo: 'Página web',
@@ -220,7 +206,7 @@ export default {
     },
     {
       tema:
-        '5.1. Incentivos y beneficios tributarios entorno a la Ley 1715 de 2014',
+        '5. Instrumentos y mecanismos para incorporar las energías renovables en Colombia',
       referencia:
         'Enercenit Energía Solar. (2018). <em>Incentivos de la Ley 1715</em> [Video]. YouTube.',
       tipo: 'Video',
@@ -228,7 +214,7 @@ export default {
     },
     {
       tema:
-        '5.1. Incentivos y beneficios tributarios entorno a la Ley 1715 de 2014',
+        '5. Instrumentos y mecanismos para incorporar las energías renovables en Colombia',
       referencia:
         'Ley 1715 de 2014. Por medio de la cual se regula la integración de las energías renovables no convencionales al sistema energético nacional. Mayo 13 de 2014. DO. No. 49.150.',
       tipo: 'Página web',
@@ -237,7 +223,7 @@ export default {
     },
     {
       tema:
-        '5.1. Incentivos y beneficios tributarios entorno a la Ley 1715 de 2014',
+        '5. Instrumentos y mecanismos para incorporar las energías renovables en Colombia',
       referencia:
         'Unidad de Planeación Minero-Energética [UPME]. (s. f.). <em>Invierta y gane con energía. Guía práctica para la aplicación de los incentivos tributarios de la Ley 1715 de 2014.</em>',
       tipo: 'PDF',
@@ -245,7 +231,8 @@ export default {
         'https://www1.upme.gov.co/Documents/Cartilla_IGE_Incentivos_Tributarios_Ley1715.pdf',
     },
     {
-      tema: '5.2. Aspectos entorno a la Ley 2099 de 2021',
+      tema:
+        '5. Instrumentos y mecanismos para incorporar las energías renovables en Colombia',
       referencia:
         'Ley 2099 de 2021. Por medio de la cual se dictan disposiciones para la transición energética, la dinamización del mercado energético, la reactivación económica del país y se dictan otras disposiciones. Julio 10 de 2021. DO. No. 51.731',
       tipo: 'PDF',
@@ -253,7 +240,7 @@ export default {
         'https://dapre.presidencia.gov.co/normativa/normativa/LEY%202099%20DEL%2010%20DE%20JULIO%20DE%202021.pdf',
     },
     {
-      tema: '6.2.2. BID',
+      tema: '6. Mecanismos de financiación de proyectos de energía renovable',
       referencia:
         'Banco Interamericano de Desarrollo. (s. f.). <em>Financiamiento y donaciones.</em>',
       tipo: 'Página web',
@@ -261,7 +248,7 @@ export default {
         'https://www.iadb.org/es/acerca-del-bid/financiamiento-del-bid/financiamiento-del-bid%2C6028.html',
     },
     {
-      tema: '6.2.4. Cooperación Económica y Desarrollo (SECO)',
+      tema: '6. Mecanismos de financiación de proyectos de energía renovable',
       referencia:
         'Secretaría de Estado para Asuntos Económicos [SECO]. (2021). <em>Colombia Programa de Cooperación Suiza 2021-2024.</em>',
       tipo: 'PDF',
@@ -318,7 +305,7 @@ export default {
       referencia:
         'Aguilar, D. (2021). <em>La ley 2099 de 2021 y los Incentivos a la Inversión para Proyectos de FNCE y de Gestión Eficiente de la Energía.</em> Blog del Sector Minero-Energético. ',
       link:
-        'https://boletinmineroenergetico.uexternado.edu.co/la-ley-2099-de-2021-y-los-incentivos-a-la-inversion-para-proyectos-de-fnce-y-de-gestion-eficiente-de-la-energia/',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=166326',
     },
     {
       referencia:

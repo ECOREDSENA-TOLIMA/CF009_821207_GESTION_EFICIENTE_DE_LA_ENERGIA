@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 1
-      h1 Estructura tarifaria de los servicios de gas y de energía eléctrica
+      h1 Estructura tarifaria de los servicios de gas y de energía eléctrica en Colombia
 
     
     .row.mb-5(data-aos="fade-down")
@@ -122,14 +122,14 @@
             figure
               img(src='@/assets/curso/temas/tema1/tema1-11.svg', alt='')
         h2.text-center Pequeñas industrias
-        p Un usuario es regulado si su consumo diario es menor que 100.000 pies cúbicos (ft3) o el aproximado en metros cúbicos (m3). Hacen parte de este grupo las pequeñas industrias y comercios y los consumidores del sector residencial. 
+        p Un usuario es regulado si su consumo diario es menor que 100.000 pies cúbicos (ft3) o el aproximado en metros cúbicos (m#[sup 3]). Hacen parte de este grupo las pequeñas industrias y comercios y los consumidores del sector residencial. 
       .col-md.tarjeta.tarjeta--gris.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-12.svg', alt='')
         h2.text-center Grandes industrias
-        p Un usuario es no regulado si su consumo por día es mayor que 100.000 pies cúbicos (ft3) o el aproximado en metros cúbicos (m3). Hacen parte de este grupo las grandes industrias y comercios, y las centrales de generación termoeléctricas.
+        p Un usuario es no regulado si su consumo por día es mayor que 100.000 pies cúbicos (ft3) o el aproximado en metros cúbicos (m#[sup 3]). Hacen parte de este grupo las grandes industrias y comercios, y las centrales de generación termoeléctricas.
 
     p.mb-4(data-aos="fade-left") El valor de la factura del servicio de gas por redes refleja los costos de cada una de las actividades de la cadena mencionada previamente.
 
@@ -174,7 +174,7 @@
         ul.lista-ul--separador
           li 
             i.fas.fa-angle-right
-            | El Costo Unitario Variable, CUv, se expresa en función del volumen de gas consumido ($/m3). El Costo Unitario Fijo, CUf, se relaciona con la disponibilidad permanente del servicio independiente del consumo; se expresa en $/factura.
+            | El Costo Unitario Variable, CUv, se expresa en función del volumen de gas consumido ($/m#[sup 3]). El Costo Unitario Fijo, CUf, se relaciona con la disponibilidad permanente del servicio independiente del consumo; se expresa en $/factura.
       .col-12.col-lg-10.col-md-11.text-center 
         figure
           img(src='@/assets/curso/temas/tema1/tema1-14.svg', alt='')
@@ -193,10 +193,10 @@
             | Donde:
       .col-12.mb-2
         .px-3
-          p.mb-0 #[strong G] = es el costo del gas, en $/m3.
-          p.mb-0 #[strong T] = es el costo del transporte, en $/m3.
+          p.mb-0 #[strong G] = es el costo del gas, en $/m#[sup 3].
+          p.mb-0 #[strong T] = es el costo del transporte, en $/m#[sup 3].
           p.mb-0 #[strong p] = es el porcentaje de pérdidas del sistema de distribución.
-          p.mb-0 #[strong D] = es el cargo por distribución, en $/m3.
+          p.mb-0 #[strong D] = es el cargo por distribución, en $/m#[sup 3].
           p.mb-0 #[strong f#[sub pc]] = es el factor del poder calorífico del gas.
           p.mb-0 #[strong C#[sub v]] = es el componente variable del costo de comercialización, en $/factura. Actualmente es cero.
           p #[strong C#[sub c]] = es el componente de confiabilidad, que actualmente es cero.
@@ -318,10 +318,10 @@
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-6.col-12
         p El término tarifa, según la Resolución CREG 186 de 2010, se refiere al cobro que se efectúa al usuario de acuerdo con su clasificación socioeconómica. En otras palabras, es el resultado de aplicar un subsidio o una contribución al costo unitario de la prestación del servicio, según el tipo de usuario y el estrato al que pertenezca, como se ve en la imagen.
-        p Así pues, usuarios de estratos 1 y 2 reciben una ayuda económica (subsidio) y los de estratos 5 y 6 deben hacer un aporte (contribución). Los usuarios de estratos 3 y 4 no reciben subsidios ni pagan contribución. Recordemos que CU es el Costo Unitario de Prestación del Servicio, en $/m3 y $/factura, y se obtiene al aplicar las fórmulas tarifarias.
+        p Así pues, usuarios de estratos 1 y 2 reciben una ayuda económica (subsidio) y los de estratos 5 y 6 deben hacer un aporte (contribución). Los usuarios de estratos 3 y 4 no reciben subsidios ni pagan contribución. Recordemos que CU es el Costo Unitario de Prestación del Servicio, en $/m#[sup 3] y $/factura, y se obtiene al aplicar las fórmulas tarifarias.
       .col-md-6.col-12
         .titulo-sexto.color-acento-botones.mt-3
-          p.titulo.pb-0.mb-0 <b>Tabla 1. </b> <i>Valores y tarifas</i>
+          p.titulo.pb-0.mb-0 <b>Tabla 1. </b> <i>Valores y tarifas.</i>
         figure
           img(src='@/assets/curso/temas/tema1/tema1-21.svg', alt='')
     .row.mb-4
@@ -331,10 +331,10 @@
 
     .row.justify-content-center.mb-4
       .col-md-5.col-12(data-aos="fade-left")
-        p Los subsidios y contribuciones son factores que también influyen en el valor de la tarifa final cobrada al usuario. La regulación de energía y gas indica que para usuarios residenciales de estratos 1 y 2 se otorgan subsidios. El porcentaje de auxilio conferido se aplica a un volumen de gas que se denomina consumo básico o de subsistencia, cuyo valor es de 20 m3 para gas natural y 7,26 m3 para GLP.
+        p Los subsidios y contribuciones son factores que también influyen en el valor de la tarifa final cobrada al usuario. La regulación de energía y gas indica que para usuarios residenciales de estratos 1 y 2 se otorgan subsidios. El porcentaje de auxilio conferido se aplica a un volumen de gas que se denomina consumo básico o de subsistencia, cuyo valor es de 20 m#[sup 3] para gas natural y 7,26 m#[sup 3] para GLP.
       .col-md-7.col-12(data-aos="fade-left")
         .titulo-sexto.color-acento-botones
-          p.titulo.pb-0.mb-0 <b>Tabla 2. </b> <i>Porcentaje de subsidio otorgado a usuarios residenciales de Estratos 1 y 2</i>
+          p.titulo.pb-0.mb-0 <b>Tabla 2. </b> <i>Porcentaje de subsidio otorgado a usuarios residenciales de Estratos 1 y 2.</i>
         .tabla-a.color-acento-botones.mb-5 
           table
             thead
@@ -352,7 +352,7 @@
     .row.justify-content-center.mb-4
       .col-md-7.col-12(data-aos="fade-right")
         .titulo-sexto.color-acento-botones
-          p.titulo.pb-0.mb-0 <b>Tabla 3. </b> <i>Porcentaje de contribución de usuarios residenciales de Estratos 5 y 6 y no residenciales</i>
+          p.titulo.pb-0.mb-0 <b>Tabla 3. </b> <i>Porcentaje de contribución de usuarios residenciales de Estratos 5 y 6 y no residenciales.</i>
         .tabla-a.color-acento-botones.mb-5 
           table
             thead
@@ -367,7 +367,7 @@
                 td.text-center No residenciales
                 td.text-center 8.9%
       .col-md-5.col-12(data-aos="fade-right")
-        p El porcentaje máximo de subsidio para estrato 1 es 60 % y 50 % para el estrato 2. Por otro lado, los usuarios residenciales de estrato 5 y 6 deben hacer un aporte o contribución que corresponde al 20 %. Mientras que para los usuarios comerciales es del 8.9 %. Estos factores son calculados a partir del valor del servicio (consumo y costo fijo).
+        p El porcentaje máximo de subsidio para estrato 1 es 60% y 50% para el estrato 2. Por otro lado, los usuarios residenciales de estrato 5 y 6 deben hacer un aporte o contribución que corresponde al 20%. Mientras que para los usuarios comerciales es del 8.9%. Estos factores son calculados a partir del valor del servicio (consumo y costo fijo).
 
 
     .row.justify-content-center.align-items-center.mb-4
@@ -739,7 +739,7 @@
                 b Restricciones 
               .row.justify-content-center.align-items-center 
                 .col-12.col-md-7
-                  p Costo que se asume para mantener la continuidad del servicio cuando se presentan problemas al transportar la energia.
+                  p Costo que se asume para mantener la continuidad del servicio cuando se presentan problemas al transportar la energía.
                 .col-12.col-md-5
                   figure
                     img(src='@/assets/curso/temas/tema1/tema1-41.svg', alt='')
@@ -800,10 +800,10 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
       .col-md-6.col-12
         .titulo-sexto.color-acento-botones.mt-2
-          p.titulo.pb-0.mb-0 <b>Tabla 4. </b> <i>Tarifas aplicadas al usuario por el servicio energía eléctrica</i>
+          p.titulo.pb-0.mb-0 <b>Tabla 4. </b> <i>Tarifas aplicadas al usuario por el servicio energía eléctrica.</i>
         figure
           img(src='@/assets/curso/temas/tema1/tema1-45.svg', alt='')
-          figcaption Nota. Tomada de https://www.creg.gov.co/sectores-que-regulamos/gas-natural/como-se-cobra 
+          figcaption Nota. Tomada de https://creg.gov.co/publicaciones/7879/como-se-cobra/ 
       .col-md-6.col-12
         .cuadro-2.px-3.py-3
           p.mb-0 Los usuarios de estratos 1, 2 y 3 reciben una ayuda económica (subsidio) y los de estratos 5 y 6 deben hacer un aporte (contribución). Los usuarios de estrato 4 no reciben subsidios ni pagan contribución. Recordemos que CU es el Costo Unitario de Prestación del Servicio, en $/kWh, y se obtiene al aplicar las fórmulas tarifarias. 
@@ -818,7 +818,7 @@
         p El marco normativo que rige el sector de energía y gas indica que para usuarios residenciales de estratos 1, 2 y 3 se otorgan subsidios. El subsidio se otorga a una cantidad de kilovatios que se denomina consumo básico, cuyo valor varía de acuerdo con la altura sobre el nivel de mar a la que se encuentre el usuario, según lo estipulado en la Resolución 0355 de 2004 de la Unidad de Planeación Minero Energética (UPME). Los valores se muestran en la siguiente tabla:
       .col-md-7.col-12(data-aos="fade-left")
         .titulo-sexto.color-acento-botones
-          p.titulo.pb-0.mb-0 <b>Tabla 5. </b> <i>Consumo básico según alturas</i>
+          p.titulo.pb-0.mb-0 <b>Tabla 5. </b> <i>Consumo básico según alturas.</i>
         .tabla-a.color-acento-botones.mb-5 
           table
             thead
@@ -835,10 +835,10 @@
 
     .row.justify-content-center.mb-4
       .col-md-5.col-12(data-aos="fade-left")
-        p Así pues, el porcentaje máximo de subsidio para usuarios estrato 1 es 60 %, para usuarios estrato 2, es 50 % y para usuarios estrato 3, 15 %. Usuarios clasificados como estrato 4 no reciben subsidios ni pagan contribución. Por otro lado, los usuarios residenciales de estrato 5 y 6 deben hacer un aporte o contribución que corresponde al 20 %. Estos factores son calculados a partir del Costo Unitario (CU) o valor del servicio.
+        p Así pues, el porcentaje máximo de subsidio para usuarios estrato 1 es 60%, para usuarios estrato 2, es 50% y para usuarios estrato 3, 15%. Usuarios clasificados como estrato 4 no reciben subsidios ni pagan contribución. Por otro lado, los usuarios residenciales de estrato 5 y 6 deben hacer un aporte o contribución que corresponde al 20%. Estos factores son calculados a partir del Costo Unitario (CU) o valor del servicio.
       .col-md-7.col-12(data-aos="fade-left")
         .titulo-sexto.color-acento-botones
-          p.titulo.pb-0.mb-0 <b>Tabla 6. </b> <i>Porcentaje máximo de subsidio otorgado a usuarios residenciales de Estratos 1, 2 y 3</i>
+          p.titulo.pb-0.mb-0 <b>Tabla 6. </b> <i>Porcentaje máximo de subsidio otorgado a usuarios residenciales de Estratos 1, 2 y 3.</i>
         .tabla-a.color-acento-botones.mb-4
           table
             thead
@@ -860,6 +860,8 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
       .col-md-8.col-12
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Figura 1.] #[i Ejemplo Factura del servicio público domiciliario de Energía Eléctrica.] 
         figure
           img(src='@/assets/curso/temas/tema1/tema1-46.png', alt='')
 

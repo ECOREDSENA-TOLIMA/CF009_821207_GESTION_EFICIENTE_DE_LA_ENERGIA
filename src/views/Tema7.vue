@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 7
-      h1 Evaluación financiera de proyectos de energía renovable 
+      h1 Evaluación financiera de proyectos de energía renovable en Colombia
 
     p.mb-5(data-aos="fade-left") Observe, a continuación, qué implica tomar decisiones financieras para un proyecto de inversión de energía renovable.
 
@@ -62,10 +62,10 @@
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-12.col-md-10(data-aos="fade-down")
         .titulo-sexto.color-acento-botones
-          p.titulo.pb-0.mb-0 #[b Figura 7.] #[i Representación de la secuencia de estudios para la toma de decisión de desarrollo del proyecto] 
+          p.titulo.pb-0.mb-0 #[b Figura 9.] #[i Representación de la secuencia de estudios para la toma de decisión de desarrollo del proyecto] 
         figure
-          img(src='@/assets/curso/temas/tema7/tema7-09.svg', alt='') 
-          figcaption Nota. Tomada de: https://www.apercc.org.mx/wp-content/uploads/2019/11/ENREN2019-Factibilidad-financiera-comprimido.pdf 
+          img(src='@/assets/curso/temas/tema7/tema7-09.svg', alt='Toma de decisión de desarrollo del proyecto tiene diferentes niveles de detalle de estudios: perfil, estudio de prefactibilidad, estudio de factibilidad, estudio detallado.') 
+          figcaption.mt-2 Nota. Tomada de: https://www.apercc.org.mx/wp-content/uploads/2019/11/ENREN2019-Factibilidad-financiera-comprimido.pdf 
 
     .cajon-b.color-primario.p-3.mb-4
       p.mb-0 En la figura anterior, se observan las fases de los estudios previos y el nivel de detalle de estos, que servirán para decidir si se desarrolla e invierte en un proyecto o no. Los cuatro primeros se agrupan y forman la etapa de preinversión. Mientras que el último estudio conformaría una etapa de transición entre la preinversión y la inversión como tal. Ahora bien, independientemente del nivel de detalle de los estudios de la etapa de preinversión, la evaluación financiera de un proyecto de inversión está conformada por los elementos que se observan en la siguiente figura.
@@ -73,7 +73,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-10.mb-5(data-aos="fade-down")
         .titulo-sexto.color-acento-botones
-          p.titulo.pb-0.mb-0 #[b Figura 8.] #[i Estructura resumida de la evaluación de proyectos] 
+          p.titulo.pb-0.mb-0 #[b Figura 10.] #[i Estructura resumida de la evaluación de proyectos] 
         figure
           img(src='@/assets/curso/temas/tema7/tema7-10.svg', alt='') 
           figcaption Nota. Tomada de https://www.apercc.org.mx/wp-content/uploads/2019/11/ENREN2019-Factibilidad-financiera-comprimido.pdf
@@ -121,7 +121,7 @@
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-12.col-md-10(data-aos="fade-down")
         .titulo-sexto.color-acento-botones
-          p.titulo.pb-0.mb-0 #[b Figura 9.] #[i Ajustes de la Ley 2099 de 2021 a los beneficios tributarios de la Ley 1715 de 2014] 
+          p.titulo.pb-0.mb-0 #[b Figura 11.] #[i Ajustes de la Ley 2099 de 2021 a los beneficios tributarios de la Ley 1715 de 2014] 
         figure
           img(src='@/assets/curso/temas/tema7/tema7-13.svg', alt='') 
           figcaption.mt-2 Nota. Adaptada de https://www.apercc.org.mx/wp-content/uploads/2019/11/ENREN2019-Factibilidad-financiera-comprimido.pdf
@@ -238,7 +238,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-10(data-aos="fade-down")
         .titulo-sexto.color-acento-botones
-          p.titulo.pb-0.mb-0 #[b Figura 10.] #[i Curva de Consumo y Curva de Producción de electricidad de un proyecto de generación solar fotovoltaica para uso residencial] 
+          p.titulo.pb-0.mb-0 #[b Figura 12.] #[i Curva de Consumo y Curva de Producción de electricidad de un proyecto de generación solar fotovoltaica para uso residencial] 
         figure
           img(src='@/assets/curso/temas/tema7/tema7-15.svg', alt='') 
           figcaption Nota. El precio de venta del kWh se obtiene de las tarifas aplicadas por la empresa de servicio de energía correspondiente 
@@ -274,7 +274,7 @@
       .col-12.col-md-5(data-aos="fade-down")
         h4 Flujo de caja
         p Las operaciones financieras se componen de una serie de flujos de caja con diferentes valores y distintas fechas. Estos flujos pueden ser ingresos o egresos. Comúnmente, se conoce el flujo de caja de un proyecto como un esquema en el que se representan las entradas (ingresos) y salidas (egresos) del proyecto registradas en un período dado, que generalmente es de 1 año. 
-        p La representación gráfica se muestra en la figura 11. 
+        p La representación gráfica se muestra en la figura 13. 
         p La línea horizontal representa el tiempo y las flechas representan el dinero. Las flechas orientadas hacia arriba representan las entradas de dinero (ingreso, ahorro, beneficio, entre otros); son valores positivos. Mientras que las flechas orientadas hacia abajo representan salida de dinero (egreso, inversión, gasto, pérdida, entre otros); son valores negativos.
       .col-12.col-md-7(data-aos="fade-down")
         figure
@@ -284,7 +284,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-10(data-aos="fade-down")
         .titulo-sexto.color-acento-botones
-          p.titulo.pb-0.mb-0 #[b Figura 11.] #[i Diagrama de flujo de caja] 
+          p.titulo.pb-0.mb-0 #[b Figura 13.] #[i Diagrama de flujo de caja] 
         figure
           img(src='@/assets/curso/temas/tema7/tema7-18.svg', alt='') 
 
