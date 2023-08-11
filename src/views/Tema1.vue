@@ -122,14 +122,14 @@
             figure
               img(src='@/assets/curso/temas/tema1/tema1-11.svg', alt='')
         h2.text-center Pequeñas industrias
-        p Un usuario es regulado si su consumo diario es menor que 100.000 pies cúbicos (ft3) o el aproximado en metros cúbicos (m#[sup 3]). Hacen parte de este grupo las pequeñas industrias y comercios y los consumidores del sector residencial. 
+        p Un usuario es regulado si su consumo diario es menor que 100.000 pies cúbicos (ft#[sup 3]) o el aproximado en metros cúbicos (m#[sup 3]). Hacen parte de este grupo las pequeñas industrias y comercios y los consumidores del sector residencial. 
       .col-md.tarjeta.tarjeta--gris.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/temas/tema1/tema1-12.svg', alt='')
         h2.text-center Grandes industrias
-        p Un usuario es no regulado si su consumo por día es mayor que 100.000 pies cúbicos (ft3) o el aproximado en metros cúbicos (m#[sup 3]). Hacen parte de este grupo las grandes industrias y comercios, y las centrales de generación termoeléctricas.
+        p Un usuario es no regulado si su consumo por día es mayor que 100.000 pies cúbicos (ft#[sup 3]) o el aproximado en metros cúbicos (m#[sup 3]). Hacen parte de este grupo las grandes industrias y comercios, y las centrales de generación termoeléctricas.
 
     p.mb-4(data-aos="fade-left") El valor de la factura del servicio de gas por redes refleja los costos de cada una de las actividades de la cadena mencionada previamente.
 
