@@ -261,8 +261,56 @@
       .col-12.col-md-4(data-aos="fade-down")
         figure
           img(src='@/assets/curso/temas/tema7/tema7-16.png', alt='') 
+    
+    p Independientemente de la fuente financiera, se deben considerar aspectos como:
+
+    ul.lista-ul
+      li.mb-0
+        i.lista-ul__vineta
+        | Plazos para pagos (amortización).
+      li.mb-0
+        i.lista-ul__vineta
+        | Tasa de descuento.
+      li.mb-0
+        i.lista-ul__vineta
+        | Porcentaje de deuda.
+      li.mb-0
+        i.lista-ul__vineta
+        | Tasa de interés.
+      li.mb-0
+        i.lista-ul__vineta
+        | Tiempo de la deuda.
+      li.mb-0
+        i.lista-ul__vineta
+        | Tasa de cambio.
+      li.mb-0
+        i.lista-ul__vineta
+        | Inflación. 
+
+    .row.justify-content-center.align-items-center.mb-2
+      .col-12(data-aos="fade-left")
+        ul.lista-ul
+            li.mb-0
+              i.fas.fa-angle-right(style="color:#AD84FF")
+              | #[strong Determinación de los costos de operación (OPEX )]
 
 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-12.col-md-8(data-aos="fade-down")
+        p Son los costos relacionados con las actividades de producción de energía eléctrica, comprenden costos fijos y costos variables. Los costos fijos son aquellos relacionados con el funcionamiento del proyecto.
+        p Son independientes del nivel de producción de electricidad; por ejemplo, los costos de la mano de obra, materiales y consumibles de mantenimiento ordinario (herramientas, alquiler de equipos, entre otros).
+        p Por lo general, se expresan en USD/MW. Los costos variables, por su parte, son aquellos que varían con la generación de electricidad, por ejemplo, comisiones por venta de energía, costo de combustible en proyectos que involucren energía calorífica (biomasa), costos relacionados con gestión ambiental, seguros, entre otros.
+        p Los costos de operación también incluyen gastos relacionados con trámites del sector eléctrico y la regulación, por ejemplo, con el Administrador del Sistema de Intercambios Comerciales (ASIC), la CREG, etc.
+      .col-12.col-md-4(data-aos="fade-down")
+        figure
+          img(src='@/assets/curso/temas/tema7/tema7-23.png', alt='') 
+
+
+    Separador
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 Determinación de indicadores de rentabilidad
+
+    p Una vez se han cuantificado las entradas y salidas de dinero asociadas al proyecto en el horizonte de evaluación, se determina la rentabilidad del proyecto. Esto se efectúa mediante indicadores de rentabilidad, como el Valor Presente Neto (VPN), la Tasa Interna de Retorno (TIR), Relación Beneficio/Costo (B/C), entre otros. Si los ingresos superan los costos de inversión y operación asociados al proyecto, se podrá decir que el proyecto es rentable, por consiguiente, factible financieramente.
 
     Separador
     #t_7_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
